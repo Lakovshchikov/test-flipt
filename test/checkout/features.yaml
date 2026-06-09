@@ -1,4 +1,9 @@
 version: "1.5"
 namespace:
-  key: checkout
-  name: checkout
+    key: checkout
+    name: checkout
+flags:
+    - key: feature_enabled
+      name: feature_enabled
+      type: BOOLEAN_FLAG_TYPE
+      enabled: true
