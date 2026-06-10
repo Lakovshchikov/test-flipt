@@ -15,3 +15,6 @@ segments:
     - key: test1
       name: test1
       match_type: ALL_MATCH_TYPE
+    - key: test2
+      name: test2
+      match_type: ALL_MATCH_TYPE
