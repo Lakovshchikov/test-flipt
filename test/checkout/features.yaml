@@ -11,3 +11,7 @@ flags:
       name: f2
       type: BOOLEAN_FLAG_TYPE
       enabled: true
+segments:
+    - key: test1
+      name: test1
+      match_type: ALL_MATCH_TYPE
