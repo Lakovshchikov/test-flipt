@@ -14,6 +14,11 @@ flags:
 segments:
     - key: only_new_users
       name: only_new_users
+      constraints:
+        - type: STRING_COMPARISON_TYPE
+          property: name
+          operator: eq
+          value: ivan
       match_type: ANY_MATCH_TYPE
     - key: test2
       name: test2
