@@ -6,7 +6,14 @@ flags:
     - key: feature_enabled
       name: feature_enabled
       type: BOOLEAN_FLAG_TYPE
-      enabled: true
+      enabled: false
+      rollouts:
+        - description: ivan is only one new user
+          segment:
+            keys:
+                - only_new_users
+            operator: OR_SEGMENT_OPERATOR
+            value: true
     - key: f2
       name: f2
       type: BOOLEAN_FLAG_TYPE
