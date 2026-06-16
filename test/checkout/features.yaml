@@ -18,3 +18,6 @@ segments:
     - key: test2
       name: test2
       match_type: ALL_MATCH_TYPE
+    - key: only_new_users
+      name: only_new_users
+      match_type: ALL_MATCH_TYPE
